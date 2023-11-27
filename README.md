@@ -1,4 +1,4 @@
-### Locker in the City - Prueba Técnica
+## Locker in the City - Prueba Técnica
 
 ### Descripción
 

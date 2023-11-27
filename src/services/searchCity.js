@@ -12,7 +12,6 @@ export async function searchCity({ city }) {
       return null;
     }
     const cityDetails = await response.json();
-    console.log(cityDetails);
 
     // Evitamos seguir el contrato de la API
     const mappedDetails = {
