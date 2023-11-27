@@ -1,0 +1,104 @@
+.page {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 360px) {
+    .form {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
+  input {
+    padding: 12px;
+    margin-right: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #27ae60;
+  }
+  
+  .cityDetails {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  
+
+  .error {
+    color: #e74c3c; /* Color rojo para indicar error */
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .separator {
+    display: block;
+    border: 2px solid aliceblue;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+    
+  }
+
+  .history {
+    list-style-type: none;
+    padding: 0;
+  }
+
+
+  .history h3 {
+    color: #333; 
+  }
+
+  .historyItem {
+    cursor: pointer;
+    transition: color 0.3s;
+    
+  }
+
+  .historyItem:hover {
+    color: black;
+  }
+  
